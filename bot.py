@@ -13,7 +13,7 @@ import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 load_dotenv()
 
 stability_api = client.StabilityInference(
-    key=os.environ['STABLE_DIFFUSION_TOKEN'],
+    key=os.environ['sk-AwgQCYiPDHb6uwVCyeAo6VXFFsKforabdjaqVN9OeRhAfD7j'],
     verbose=True,
 )
 
@@ -70,4 +70,4 @@ async def load(ctx, *, prompt):
                 await ctx.send(file=file)
 
 
-bot.run(os.environ["DISCORD_TOKEN"])
+bot.run(os.environ["j72jPx2MItPkyCAITrulON1UQ58OUjoH"])
