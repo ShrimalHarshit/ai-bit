@@ -70,4 +70,4 @@ async def load(ctx, *, prompt):
                 await ctx.send(file=file)
 
 
-bot.run(os.environ["j72jPx2MItPkyCAITrulON1UQ58OUjoH"])
+bot.run(os.environ["MTA2NDg5MzA4NTczOTM5NzI1MQ.GfCSMJ.5eoUw9eGymjHiuAIgp3sYCEz823yDllwu4kBP8"])
